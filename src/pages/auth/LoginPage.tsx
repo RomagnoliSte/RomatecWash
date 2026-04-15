@@ -1,6 +1,8 @@
-import Logo from "../components/Logo";
+import { useNavigate } from "react-router-dom";
+import Logo from "../../components/Logo";
 
 export default function LoginPage() {
+  const navigate = useNavigate();
   return (
     <div className="flex min-h-screen w-screen">
       <div className="hidden md:flex md:w-1/2 bg-brand-dark text-white p-10">
@@ -63,7 +65,8 @@ export default function LoginPage() {
             </div>
 
             <button
-              type="submit"
+              type="button"
+              onClick={() => navigate("/dashboard")}
               className="w-full rounded-xl bg-brand-primary py-3 font-medium text-white transition hover:bg-brand-medium"
             >
               Entrar
