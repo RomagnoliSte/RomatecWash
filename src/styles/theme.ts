@@ -1,7 +1,7 @@
 export const theme = {
   colors: {
     brand: {
-      dark: "#1a2f4d",
+      dark: "#1A2F4D",
       primary: "#2c4a6e",
       medium: "#3d5f8a",
       light: "#5a7fa8",

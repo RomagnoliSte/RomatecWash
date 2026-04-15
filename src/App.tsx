@@ -1,4 +1,4 @@
-import LoginPage from "./pages/auth/login";
+import LoginPage from "./pages/LoginPage";
 
 function App() {
   return <LoginPage />;
